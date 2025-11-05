@@ -1,0 +1,77 @@
+/* Navbar styling */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #6A8E87;
+}
+
+/* Swiper container */
+.swiper {
+  width: 100%;
+  height: auto;
+  background-color: #6A8E87;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.slidebtns {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.slidebtns div {
+  position: static;
+}
+
+.swiper-button-prev::after {
+  content: "";
+}
+
+.swiper-button-next::after {
+  content: ""
+}
+
+.btn-brown {
+  background-color: #BC8763;
+}
+
+.section-title {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    gap: 15px !important;
+    text-align: center;
+  }
+}
+
+/* Responsive Slider */
+@media (max-width: 768px) {
+  .swiper-slide .card {
+    margin: 0 auto;
+  }
+}
+
+.btn-brown {
+  background-color: #BC8763;
+}

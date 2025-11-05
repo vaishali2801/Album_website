@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--=========================================== Navbar ==============================================-->
+    <header id="header" class="border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/img.png" alt="logo" width="180" height="70">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center" style="gap:50px;">
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#home">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="shopDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                                <li><a class="dropdown-item" href="#1">Workshop</a></li>
+                                <li><a class="dropdown-item" href="#2">Preset</a></li>
+                                <li><a class="dropdown-item" href="#3">Photography</a></li>
+                                <li><a class="dropdown-item" href="#4">Shop All</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#workshops">Workshops</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#courses">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#track">Track Order</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#login">Login</a></li>
+                    </ul>
+
+                    <div class="d-flex gap-3 ms-lg-4 mt-3 mt-lg-0">
+                        <i class="ri-search-line fs-4"></i>
+                        <i class="ri-shopping-cart-2-fill fs-4"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=============================================== Slider =========================================-->
+    <section class="py-4 mx-3" style="background-color:#6A8E87;">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide py-5">
+                    <div class="row align-items-center text-center text-lg-start">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h1 class="fw-bold text-white display-5 lh-sm">Learn Advanced Album Design With Rohan
+                                Chauhan</h1>
+                            <p class="text-white fs-5 mt-3">Photobook Album Design Batch 18 starts from 03 Nov</p>
+                            <a href="#" class="btn btn-light rounded-pill px-4 mt-3 fw-semibold text-dark">Course
+                                Info</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./img/first.webp" alt="slide image" class="img-fluid rounded"
+                                style="width: 608px;height: 430px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide py-5">
+                    <div class="row align-items-center text-center text-lg-start">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h1 class="fw-bold text-white display-5 lh-sm">Rohan Chauhan</h1>
+                            <p class="text-white fs-5 mt-3">(Adobe Certified Professional) | 10+ years in Image Editing
+                                & 6+ years in Photobook Album Designing</p>
+                            <a href="#" class="btn btn-light rounded-pill px-4 mt-3 fw-semibold text-dark">Visit
+                                Instagram</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./img/bg3.jpeg" alt="slide image" class="img-fluid rounded"
+                                style="width: 608px;height: 430px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Swiper Controls -->
+            <div class="slidebtns-1 mt-4">
+                <div class=" swiper-button-prev  rounded-3 p-4"><i class="ri-arrow-left-s-line text-light fs-1"></i>
+                </div>
+                <div class="swiper-button-next  rounded-3 p-4"><i class="ri-arrow-right-s-line text-light fs-1"></i>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-main"></div>
+
+        </div>
+    </section>
+    <!-- ===================================================second page ===================================================-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="p-3 pt-5 mt-5">
+                        <h1 class="text-dark fs-2 fw-bold pt-5 ">Whats Inside Rohan Albums Assets Pack 02</h1>
+                        <button class="btn btn-brown text-light rounded-5 fw-bold px-5 mt-5">Watch Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12">
+                    <img src="img/ZeSX4Y4gSoSW1v3LMbiO_main_1440x810_webp.jpg" alt="" class="img-fluid mt-3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================================text==========================================================-->
+    <section class="my-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="section-header flex-wrap mb-5 align-items-center">
+                        <h2 class="section-title fs-2 fw-1" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+                            Welcome!
+                        </h2>
+                        <p class="text-dark fs-4 text-center mt-3"
+                            style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Welcome to the Anjit Albums
+                            Assets, one of the best assest sources for wedding album design and image editing. We keep
+                            adding products regularly. So do check out our latest offerings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================card slider====================================================-->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="section-header flex-wrap mb-5 align-items-center">
+                        <h2 class="section-title fs-2 fw-bold" style="font-family:Arial, Helvetica, sans-serif">
+                            Featured Products
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class=" swiper1 mySwiper_new">
+                <div class="slidebtns">
+                    <div class="swiper-button-prev-1 bg-dark rounded-circle px-2"><i
+                            class="ri-arrow-left-s-line text-white fs-3"></i>
+                    </div>
+                    <div class="swiper-button-next-1 bg-dark rounded-circle px-2"><i
+                            class="ri-arrow-right-s-line text-white fs-3"></i>
+                    </div>
+
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/one.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/two.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/three.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/four.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/five.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/six.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/seven.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/eight.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/nine.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/ten.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/eleven.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/twelve.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/thirteen.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================card slider====================================================-->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="section-header flex-wrap mb-5 align-items-center">
+                        <h2 class="section-title fs-2 fw-bold" style="font-family:Arial, Helvetica, sans-serif">
+                            Every Wedding Album Designer Must Have
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class=" swiper1 mySwiper_new">
+                <div class="slidebtns">
+                    <div class="swiper-button-prev-1 bg-dark rounded-circle px-2"><i
+                            class="ri-arrow-left-s-line text-white fs-3"></i>
+                    </div>
+                    <div class="swiper-button-next-1 bg-dark rounded-circle px-2"><i
+                            class="ri-arrow-right-s-line text-white fs-3"></i>
+                    </div>
+
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/one.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/two.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/three.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/four.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/five.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/six.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/seven.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/eight.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/nine.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/ten.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/eleven.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/twelve.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide py-5">
+                        <div class="card" style="width: 18rem;border: none;">
+                            <img src="./img/thirteen.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fs-4 fw-bold">Rohan Albums Assets Pack 02 Bundle</p>
+                                <p class="text-center"><i class="ri-money-rupee-circle-line"></i>1,499</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination-main",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper1 = new Swiper(".mySwiper_new", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next-1",
+                prevEl: ".swiper-button-prev-1",
+            },
+            breakpoints: {
+                320: { slidesPerView: 1 },
+                576: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                992: { slidesPerView: 4 }
+            }
+        });
+
+    </script>
+</body>
+
+</html>
